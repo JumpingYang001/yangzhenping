@@ -4,7 +4,7 @@
 int main (int argc, char *argv[])
 {
    if( argc != 2 ) {
-      printf("Usage: ./ff article1.txt\n");
+      printf("Usage: ./LongestWordInAnArticle article1.txt\n");
       return 0;
    }
    char *fileName= argv[1];
