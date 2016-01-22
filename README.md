@@ -9,9 +9,9 @@ LongestWordInAnArticle.c is a program which implement search a longest word in a
   - Currently not support like 'What's'
 
 Notes:
-> 1.
-> 2.
-> 3.
+> 1. abc
+> 2. def
+> 3. hij
 
 ### Compile:
 ```sh
@@ -30,9 +30,7 @@ $ ./LongestWordInAnArticle article1.txt
 
  - Add Code Comments
 
-
-
-License
+### License
 
 ----
 
