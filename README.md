@@ -2,6 +2,7 @@
 yangzhenping
 
 
+##LongestWordInAnArticle.c
 LongestWordInAnArticle.c is a program which implement search a longest word in an article.
 
   - Currently just support output last longest word
@@ -30,6 +31,7 @@ $ ./LongestWordInAnArticle article1.txt
 
  - Add Code Comments
 
+##SumOfN-thPowersIsAnN-thPower.c
 SumOfN-thPowersIsAnN-thPower.c is a program which implement Sum of n-th Powers Is an n-th Power:[sum_of_powers_is_a_power].
 
   - A^5 + B^5 + C^5 + D^5 + E^5 = F^5
