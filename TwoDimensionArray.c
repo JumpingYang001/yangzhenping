@@ -14,10 +14,10 @@
  
 #define none   "\033[0m"        /* to flush the previous property */
 
+int list[10][10];
+int i,j;
 int main (int argc, char *argv[])
 {
-    int list[10][10];
-    int i,j;
     for(i=1;i<=10;i++)
     {
        for(j=1;j<=10;j++)
@@ -26,18 +26,18 @@ int main (int argc, char *argv[])
        }
     }
 
-    list[0][9]=2;
+    list[0][9]=1;
     list[1][3]=1;
     list[1][4]=1;
-    list[1][9]=2;
-    list[3][4]=5;
-    list[3][7]=3;
-    list[4][3]=6;
-    list[4][7]=3;
-    list[5][7]=3;
-    list[5][8]=3;
-    list[6][4]=4;
-    list[6][5]=4;
+    list[1][9]=1;
+    list[3][4]=1;
+    list[3][7]=1;
+    list[4][3]=1;
+    list[4][7]=1;
+    list[5][7]=1;
+    list[5][8]=1;
+    list[6][4]=1;
+    list[6][5]=1;
 
     for(i=1;i<=10;i++)
     {
@@ -51,5 +51,10 @@ int main (int argc, char *argv[])
        printf("%s\n%s", black, black);
     }
 
+    return 0;
+}
+
+int GetSize(int a, int b)
+{
     return 0;
 }
