@@ -26,9 +26,7 @@ $ ./LongestWordInAnArticle article1.txt
 
 ### Todos
 
-
  - Write Tests
-
  - Add Code Comments
 
 ##SumOfN-thPowersIsAnN-thPower.c
